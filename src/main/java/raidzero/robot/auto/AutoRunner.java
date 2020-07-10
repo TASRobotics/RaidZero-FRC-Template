@@ -2,7 +2,7 @@ package raidzero.robot.auto;
 
 import edu.wpi.first.wpilibj.shuffleboard.Shuffleboard;
 import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import raidzero.robot.auto.sequences.*;
+import raidzero.robot.operations.sequences.*;
 import raidzero.robot.dashboard.Tab;
 
 /**

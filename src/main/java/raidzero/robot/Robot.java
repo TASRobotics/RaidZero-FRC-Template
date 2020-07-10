@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.Timer;
 import raidzero.robot.auto.AutoRunner;
 import raidzero.robot.teleop.Teleop;
 import raidzero.robot.submodules.SubmoduleManager;
-import raidzero.robot.submodules.Superstructure;
+import raidzero.robot.submodules.OperationsManager;
 
 /**
  * The main robot class.
@@ -17,7 +17,7 @@ public class Robot extends TimedRobot {
 
     private static final Teleop teleop = Teleop.getInstance();
 
-    private static final Superstructure moduleSuperstructure = Superstructure.getInstance();
+    private static final OperationsManager moduleOperationsManager = OperationsManager.getInstance();
 
     private AutoRunner autoRunner;
 
@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
     public void robotInit() {
         // Register all submodules here
         submoduleManager.setSubmodules(
-            moduleSuperstructure
+            moduleOperationsManager
         );
         submoduleManager.onInit();
 

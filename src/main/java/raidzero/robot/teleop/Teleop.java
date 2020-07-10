@@ -2,7 +2,7 @@ package raidzero.robot.teleop;
 
 import edu.wpi.first.wpilibj.XboxController;
 
-import raidzero.robot.submodules.Superstructure;
+import raidzero.robot.submodules.OperationsManager;
 
 public class Teleop {
 
@@ -18,7 +18,7 @@ public class Teleop {
     private Teleop() {
     }
 
-    private static Superstructure superstructure = Superstructure.getInstance();
+    private static OperationsManager operationManager = OperationsManager.getInstance();
 
     private XboxController p1 = new XboxController(0);
     private XboxController p2 = new XboxController(1);
