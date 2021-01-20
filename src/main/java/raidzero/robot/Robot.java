@@ -17,7 +17,7 @@ public class Robot extends TimedRobot {
 
     private static final Teleop teleop = Teleop.getInstance();
 
-    private static final OperationsManager moduleOperationsManager = OperationsManager.getInstance();
+    private static final Superstructure superstructure = Superstructure.getInstance();
 
     private AutoRunner autoRunner;
 
@@ -28,7 +28,7 @@ public class Robot extends TimedRobot {
     public void robotInit() {
         // Register all submodules here
         submoduleManager.setSubmodules(
-            moduleOperationsManager
+            superstructure
         );
         submoduleManager.onInit();
 
