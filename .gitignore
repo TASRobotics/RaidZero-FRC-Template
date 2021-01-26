@@ -105,7 +105,6 @@ Temporary Items
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
-!.vscode/eclipse-java-google-style.xml
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
@@ -137,7 +136,7 @@ $RECYCLE.BIN/
 
 ### Gradle ###
 .gradle
-build/
+/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting

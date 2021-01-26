@@ -6,7 +6,7 @@ import edu.wpi.first.wpilibj.Timer;
 import raidzero.robot.auto.AutoRunner;
 import raidzero.robot.teleop.Teleop;
 import raidzero.robot.submodules.SubmoduleManager;
-import raidzero.robot.submodules.OperationsManager;
+import raidzero.robot.submodules.Superstructure;
 
 /**
  * The main robot class.

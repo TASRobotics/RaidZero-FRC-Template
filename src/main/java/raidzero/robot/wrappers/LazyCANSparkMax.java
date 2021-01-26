@@ -1,4 +1,14 @@
-package raidzero.robot.wrappers;
+/**
+ * 
+ * 
+ * THIS WRAPPER IS FOR THE SPARK MAX
+ * leave disabled if not using the spark max
+ * 
+ *
+ * */
+
+/**
+ package raidzero.robot.wrappers;
 
 import com.revrobotics.CANSparkMax;
 
@@ -22,3 +32,4 @@ public class LazyCANSparkMax extends CANSparkMax {
         }
     }
 }
+*/

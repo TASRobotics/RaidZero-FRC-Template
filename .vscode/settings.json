@@ -1,6 +1,17 @@
 {
-    "python.pythonPath": "D:\\virtualenv\\envs\\frc\\Scripts\\python.exe",
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
-    "java.format.settings.profile": "GoogleStyle",
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "java.server.launchMode": "Standard",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "bin/": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/*~": true
+  }
 }
